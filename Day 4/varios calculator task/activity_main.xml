@@ -1,0 +1,95 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".MainActivity">
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Calculate Percentage And Grade"
+        android:textSize="25dp"
+        android:textAlignment="center"
+        android:textColor="@color/black"
+        android:layout_marginTop="50dp"/>
+
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Enter marks of subject 1"
+        android:id="@+id/e1"
+        android:textSize="25dp"
+        android:layout_gravity="center"
+        android:layout_marginTop="15dp"/>
+
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Enter marks of subject 2"
+        android:id="@+id/e2"
+        android:textSize="25dp"
+        android:layout_gravity="center"
+        android:layout_marginTop="15dp"/>
+
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Enter marks of subject 3"
+        android:id="@+id/e3"
+        android:textSize="25dp"
+        android:layout_gravity="center"
+        android:layout_marginTop="15dp"/>
+
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Enter marks of subject 4"
+        android:id="@+id/e4"
+        android:textSize="25dp"
+        android:layout_gravity="center"
+        android:layout_marginTop="15dp"/>
+
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Enter marks of subject 5"
+        android:id="@+id/e5"
+        android:textSize="25dp"
+        android:layout_gravity="center"
+        android:layout_marginTop="15dp"/>
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/btn"
+        android:layout_marginTop="10dp"
+        android:text="Calculate"
+        android:textSize="20dp"
+        android:layout_gravity="center"/>
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/per"
+        android:text=""
+        android:layout_gravity="center"
+        android:textAlignment="center"
+        android:textSize="25dp"
+        android:textColor="@color/black"
+        android:layout_marginTop="12dp"/>
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/gr"
+        android:text=""
+        android:layout_gravity="center"
+        android:textAlignment="center"
+        android:textSize="25dp"
+        android:textColor="@color/black"
+        android:layout_marginTop="15dp"/>
+
+</LinearLayout>
